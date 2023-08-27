@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	font-weight: 600;
+	
+}
+
+#card img {
+    width: 100%;
+}
+
+#card h1,  #card p{
+    text-align: center;
+	margin-top: 0px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #fe625a;
+    color: #fbfbfb;
+    border-radius: 10px;
+	border-color: none;
+	margin-left: 100px;
+}
+
